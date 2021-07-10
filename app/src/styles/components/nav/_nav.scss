@@ -1,0 +1,23 @@
+.nav {
+  display: none;
+
+  @include mobile {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+  }
+
+  @include tablet {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+  }
+
+  .nav__prev {
+    background-color: unset;
+  }
+  
+  .nav__fav {
+    color: $color-red;
+  }
+}

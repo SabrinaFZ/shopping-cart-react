@@ -1,0 +1,14 @@
+{
+  "name": "shopping-list-api",
+  "version": "1.0.0",
+  "description": "Shopping list Rest API",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.15.1"
+  }
+}
