@@ -24,7 +24,7 @@ function App () {
     return () => {
       window.removeEventListener('resize', detectDevice)
     }
-  }, [isMobileOrTablet])
+  }, [])
 
   const addToCart = product => {
     const productInCart = findProductInCart(product)
